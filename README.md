@@ -25,11 +25,11 @@ The application consists of a user CRUD. You can create, read, update and delete
 5. Delete: delete on: "/users/:id"
 
 To create a user you need to pass in the body of the requisition the following informations like a JSON:<br>
-{ 
-  name: name,
-  email: email,
-  password: password
-}
+{<br> 
+  name: name,<br>
+  email: email,<br>
+  password: password<br>
+}<br>
 Don't worry, I'll not save your clean password, we use json web token for garantee the security :)
 
 To update you need to do the same, but you only can update the name and email.
