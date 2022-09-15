@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Beer Track </title>
+</head>
+
+<body>
+  <header>
+   <h1> Find your favorite beer!</h1>
+  </header>
+  <fieldset>
+    <legend>Choose your options to consult:</legend>
+    <div>
+      <input type="checkbox" id="abv_gt" name="abv_gt">
+      <label for="abv_gt">Abv_gt:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="abvgt_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="abv_lt" name="abv_lt">
+      <label for="abv_lt">Abv_lt:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="abvlt_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="ibu_gt" name="ibu_gt">
+      <label for="ibu_gt">Ibu_gt:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="ibugt_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="ibu_lt" name="ibu_lt">
+      <label for="ibu_lt">Ibu_lt:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="ibult_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="ebc_gt" name="ebc_gt">
+      <label for="ebc_gt">Ebc_gt:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="ebcgt_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="ebc_lt" name="ebc_lt">
+      <label for="ebc_lt">Ebc_lt:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="ebclt_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="beer_name" name="beer_name">
+      <label for="beer_name">Beer_name:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="beer_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="brewed_before" name="brewed_before">
+      <label for="brewed_before">Brewed_before:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="brewedB_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="brewed_after" name="brewed_after">
+      <label for="brewed_after">Brewed_after:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="brewedA_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="hops" name="hops">
+      <label for="hops">Hops:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="hops_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="malt" name="malt">
+      <label for="malt">Malt:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="malt_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="food" name="food">
+      <label for="food">Food:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="food_value" name="value">
+    </div>
+    <div>
+      <input type="checkbox" id="ids" name="ids">
+      <label for="ids">Ids:&nbsp&nbsp&nbsp</label>
+      <input type="text" id="ids_value" name="value">
+    </div>
+</fieldset>
+  <br><br>
+  <input type="submit" value="Search" id="submit">
+  <button id="random">Get a random Beer</button>
+  <script type="module" src="/beer.js"></script>
+</body>
+</html>

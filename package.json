@@ -6,6 +6,14 @@
   "scripts": {
     "start": "node ./bin/server.js"
   },
+  "plugins": [
+    [
+      "@babel/plugin-proposal-record-and-tuple",
+      {
+        "importPolyfill": true
+      }
+    ]
+  ],
   "keywords": [],
   "author": "Harllon",
   "license": "ISC",
@@ -19,5 +27,8 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.8.0",
     "sequelize": "^6.21.6"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-record-and-tuple": "^7.18.6"
   }
 }

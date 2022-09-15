@@ -2,6 +2,7 @@
 
 const http = require('http');
 const debug = require('debug')('challenge:server');
+const { Client } = require("pg");
 
 
 const app = require('../src/app');
@@ -56,6 +57,7 @@ function onListening(){
     debug('Listening on ' + bind);
 }
 
+
 (async () => {
     const database = require('../src/database/db');
     const User = require('../src/database/user');
@@ -67,3 +69,4 @@ function onListening(){
         console.log(error);
     }
 })();
+
