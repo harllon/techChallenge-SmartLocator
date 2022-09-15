@@ -18,11 +18,11 @@ So, but, I talked a lot of things but I didn't say about what is this applicatio
 
 The application consists of a user CRUD. You can create, read, update and delete users using the following endpoints:
 
-Create: post on:  "/users"
-Read: get on: "/users"
-Read an specific user: get on: "/users/:id"
-Update: put on: "/users/:id"
-Delete: delete on: "/users/:id"
+1. Create: post on:  "/users"
+2. Read: get on: "/users"
+3. Read an specific user: get on: "/users/:id"
+4. Update: put on: "/users/:id"
+5. Delete: delete on: "/users/:id"
 
 To create a user you need to pass in the body of the requisition the following informations like a JSON:
 { 
