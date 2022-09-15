@@ -24,7 +24,7 @@ The application consists of a user CRUD. You can create, read, update and delete
 4. Update: put on: "/users/:id"
 5. Delete: delete on: "/users/:id"
 
-To create a user you need to pass in the body of the requisition the following informations like a JSON:
+To create a user you need to pass in the body of the requisition the following informations like a JSON:\n
 { 
   name: name,
   email: email,
